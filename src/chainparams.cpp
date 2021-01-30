@@ -120,10 +120,7 @@ public:
         // This is fine at runtime as we'll fall back to using them as a oneshot if they don't support the
         // service bits we want, but we should get them updated to support all service bits wanted by any
         // release ASAP to avoid it where possible.
-        vSeeds.emplace_back("seed-a.dezcoin.loshan.co.uk");
-        vSeeds.emplace_back("dnsseed.thrasher.io");
-        vSeeds.emplace_back("dnsseed.dezcointools.com");
-        vSeeds.emplace_back("dnsseed.dezcoinpool.org");
+        vSeeds.emplace_back("dnsseed.dezcoin.net");
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,30); // This will create public addresses that always start with "D"
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
