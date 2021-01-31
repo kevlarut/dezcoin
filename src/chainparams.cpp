@@ -126,8 +126,8 @@ public:
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
         base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,50);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,80);
-        base58Prefixes[EXT_PUBLIC_KEY] = {0xBB, 0x1G, 0x83, 0xD1};
-        base58Prefixes[EXT_SECRET_KEY] = {0xD2, 0x01, 0x81, 0x2G};
+        base58Prefixes[EXT_PUBLIC_KEY] = {0xBB, 0x16, 0x83, 0xD1};
+        base58Prefixes[EXT_SECRET_KEY] = {0xD2, 0x01, 0x81, 0x26};
 
         bech32_hrp = "ltc";
 
